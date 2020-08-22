@@ -24,16 +24,16 @@
                         <a href="#" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About us</a>
+                        <a href="about.html" class="nav-link">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Service</a>
+                        <a href="service.html" class="nav-link">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Blog</a>
+                        <a href="blog.html" class="nav-link">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
             <li data-target="#corosel_main" data-slide-to="0" class="active"></li>
             <li data-target="#corosel_main" data-slide-to="1"></li>
             <li data-target="#corosel_main" data-slide-to="2"></li>
-            <li data-target="#corosel_main" data-slide-to="2"></li>
+            <li data-target="#corosel_main" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -114,11 +114,14 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-dark py-5">
+    <div class="container-fluid py-5 overlay1">
+
         <div class="container text-center text-white">
             <h2>Are you ready to get started??</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor nesciunt non id explicabo maiores minus.</p>
         </div>
+
+
     </div>
 
     <div class="container-fluid py-5">
@@ -136,9 +139,9 @@
         </div>
     </div>
 
-    <section id="play_vid" class="bg-dark">
-        <div class="inner-overlay">
-            <div class="container text-center text-white py-4">
+    <section id="play_vid" class="bg-dark overlay2 text-light">
+        <div class="inner-overlay m-0 overlay_back">
+            <div class="container text-center  py-4">
                 <a href="https://youtube.com" data-toggle="modal" data-target="#show_modal" class=""> <i class="fas fa-4x fa-play"></i></a>
                 <h3 class="display-4">See what we do</h3>
             </div>
@@ -155,8 +158,7 @@
                         <i class="fas fa-times mb-3"></i>
                     </button>
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/cJoSrci4f4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xXAtPusSmds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -208,9 +210,20 @@
             <h2>Sign Up for our newsletter</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatem reprehenderit non eveniet eaque necessitatibus.</p>
             <form action="" class="form-inline d-flex justify-content-center ">
-                <input type="text" placeholder="Enter Name" class="form-control m-4">
-                <input type="text" placeholder="Enter Email" class="form-control m-4">
-                <button class="btn btn-primary m-4">Submit</button>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <input type="text" placeholder="Enter Name" class="form-control m-4">
+                    </div>
+                    <div class="col-md-4  col-sm-12">
+                        <input type="text" placeholder="Enter Email" class="form-control m-4">
+                    </div>
+                    <div class="col-md-4  col-sm-12">
+                        <button class="btn btn-primary m-4 btn-block">Submit</button>
+                    </div>
+                </div>
+
+
+
             </form>
 
         </div>

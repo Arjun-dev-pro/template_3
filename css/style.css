@@ -1,0 +1,31 @@
+.overlay1 {
+  background-image: url("../img/lights.jpg");
+  background-attachment: fixed;
+  background-size: cover; }
+
+.overlay2 {
+  background-image: url("../img/media.jpg");
+  background-attachment: fixed;
+  background-size: cover; }
+
+.overlay_back {
+  background: rgba(0, 0, 0, 0.2); }
+
+.overlay_about {
+  background: rgba(0, 0, 0, 0.2); }
+
+#about_first_section {
+  background-image: url("../img/image2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
+
+.about_selfie_custom1 {
+  position: relative; }
+  .about_selfie_custom1 .about_selfie_custom2 {
+    position: absolute;
+    top: -50px;
+    width: 90%; }
+
+.accordion a {
+  text-decoration: none; }
